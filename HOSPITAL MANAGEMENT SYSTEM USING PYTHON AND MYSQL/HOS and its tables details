@@ -1,0 +1,50 @@
+DATABASE NAME: HOS
+TABLES PRESENT IN HOS:  
+  
+1) Table: admission  ////SYNTAX FOR TABLE CREATION: CREATE TABLE <TABLENAME>(COLUMN1 DATATYPE(SIZE),COLUMN2 DATATYPE(SIZE)........);////
+Columns:
+ID varchar(50) 
+name varchar(50) 
+age varchar(50) 
+gender varchar(50) 
+dr varchar(50) 
+bed_type varchar(50) 
+incoming_date varchar(50) 
+bill varchar(50)
+
+2) TABLE: DOC
+Columns:
+ID varchar(50) 
+dept varchar(50) 
+name varchar(50)
+
+3) TABLE: EMERGENCY
+Columns:
+location varchar(50) 
+ph varchar(50)
+
+4) TABLE: PATIENTS
+Columns:
+uid varchar(20) 
+name varchar(50) 
+age varchar(20) 
+gender varchar(20) 
+dnt date 
+ph varchar(50) 
+dr varchar(50)
+
+5) TABLE: STAFF 
+Columns:
+ID varchar(50) 
+name varchar(50)
+
+6)TABLE: FINAL //DISCHARGE DETAILS OF PATIENTS ADMITTED//
+Columns:
+ID varchar(50) 
+name varchar(50) 
+age varchar(50) 
+dr varchar(50) 
+incoming_date varchar(50) 
+days varchar(50) 
+bill varchar(5000)
+
