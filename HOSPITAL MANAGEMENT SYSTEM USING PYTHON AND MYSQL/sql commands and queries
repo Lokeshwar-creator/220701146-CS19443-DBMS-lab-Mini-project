@@ -1,0 +1,26 @@
+create database hos;
+use hos;
+create table patient(uid varchar(20) ,name varchar(50), age varchar(20), gender varchar(20),dnt date, ph varchar(50),dr varchar(50));
+create table admission(ID varchar(50),name varchar(50),age varchar(50),gender varchar(50),dr varchar(50),bed_type varchar(50),incoming_date varchar(50),bill varchar(50));
+ create table final(ID varchar(50),name varchar(50),age varchar(50),dr varchar(50),incoming_date varchar(50),days varchar(50),bill varchar(5000)); 
+ create table doc(ID varchar(50),dept varchar(50), name varchar(50));
+ insert into doc(ID,dept,name) values("9854","CD","DR.MOHITH");
+ insert into doc(ID,dept,name) values("4356","CD","DR.MANIKANDAN");
+ insert into doc(ID,dept,name) values("8709","NU","DR.MERVIN");
+ insert into doc(ID,dept,name) values("9865","NU","DR.LOGESH");
+ insert into doc(ID,dept,name) values("9855","DM","DR.LITHAN");
+ insert into doc(ID,dept,name) values("4214","DM","DR.LALIT");
+ insert into doc(ID,dept,name) values("7721","SG","DR.LOGESHWARAN");
+ insert into doc(ID,dept,name) values("2854","SG","DR.PRASHANTH");
+ insert into doc(ID,dept,name) values("3211","GS","DR.Mukesh");
+ insert into doc(ID,dept,name) values("3290","GS","DR.HARIVARSAN");
+create table emergency(location varchar(50),ph varchar(50));
+create table staff(ID varchar(50),name varchar(50));
+insert into staff(ID,name) values("1311","VASU");
+insert into staff(ID,name) values("3490","RAJ");
+insert into staff(ID,name) values("5263","PRIYA");
+insert into staff(ID,name) values("1119","JULIE");
+insert into staff(ID,name) values("0678","KANNAN");
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+///RUN THIS SQL COMMANDS AND QUERIES IN MYSQL WORKBENCH UNDER THE CREATED DATABASE hos///
