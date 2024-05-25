@@ -9,6 +9,7 @@ doc_id=["9854","4356","8709","9865","9855","4214","2854","7721","3211","3290"]
 staff_id=["1311","3490","5263","1119","0678"]
 
 def mainmenu():
+    print("------------WELCOME TO GRC HOSPITAL------------")
     print("Main menu----\n 1.Patient\n 2.Doctor\n 3.Staff\n 4.Know more\n")
     ans = input("Choose an Option Number: ")
     if ans == "1":
