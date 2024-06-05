@@ -14,7 +14,7 @@ create table admission(ID varchar(50),name varchar(50),age varchar(50),gender va
  insert into doc(ID,dept,name) values("2854","SG","DR.PRASHANTH");
  insert into doc(ID,dept,name) values("3211","GS","DR.Mukesh");
  insert into doc(ID,dept,name) values("3290","GS","DR.HARIVARSAN");
-create table emergency(location varchar(50),ph varchar(50));
+create table emergency2(roomno int,name varchar2(45),ph varchar(50),location varchar2(45);
 create table staff(ID varchar(50),name varchar(50));
 insert into staff(ID,name) values("1311","VASU");
 insert into staff(ID,name) values("3490","RAJ");
